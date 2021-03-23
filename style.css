@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1em;
+    min-height: 100vh;
+    background-image:url(image/covid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p { 
+    color: white;
+    margin:  1em 0;
+}
+
+header {
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid19 Statistiques</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="statistiques.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+    <header>
+        <p>
+            <input type="search" name="search" id="searchText">
+            <input type="button" value="Rechercher" onclick="buttonClickSearch()" />
+        </p>
+        <p>
+            <input type="radio" value="all" id="radioWorld" name="searchType" checked>
+            <label for="radioWorld">Monde</label>
+
+            <input type="radio" value="countries" id="radioCountry" name="searchType">
+            <label for="radioCountry">Pays</label>
+
+            <input type="radio" value="continents" id="radioContinent" name="searchType">
+            <label for="radioContinent">Continents</label>        
+        </p>
+    </header
+    >
+    <div id="zoneResultats"> </div>
+</body>
+
+
+
+
+<footer>
+
+</footer>
+
+
+</html>
